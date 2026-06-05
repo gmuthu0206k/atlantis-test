@@ -3,9 +3,7 @@ version: 3
 projects:
   - dir: terraform-demo
     terraform_version: v1.5.7
-
     autoplan:
+      enabled: true
       when_modified:
         - "terraform-demo/*.tf"
-      enabled: true
-
