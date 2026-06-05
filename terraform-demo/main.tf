@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket = "mutharasan-1234-bitverse-com"
+  bucket = "my-atlantis-demo-001"
 
   tags = {
     Name = "AtlantisDemo"
