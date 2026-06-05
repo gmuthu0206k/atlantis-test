@@ -7,5 +7,5 @@ projects:
     autoplan:
       when_modified:
         - "*.tf"
-      enable: true
+      enabled: true
 
