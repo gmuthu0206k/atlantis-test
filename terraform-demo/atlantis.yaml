@@ -1,0 +1,10 @@
+version: 3
+
+projects:
+  - dir:
+    terraform_version: v1.5.7
+    
+    autoplan:
+      when_modified:
+        - "*.tf"
+      enable: true
